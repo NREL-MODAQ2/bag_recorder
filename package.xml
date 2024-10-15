@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>bag_recorder</name>
+  <version>0.0.1</version>
+  <description>This package enables more control over the ros bag record process such as the ability to start and stop recording</description>
+  <maintainer email="casey.nichols@nrel.gov">m2</maintainer>
+  <license>BSD 3-Clause License</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <depend>rosbag2_cpp</depend>
+  <depend>rosbag2_storage</depend>
+  <depend>rosbag2_transport</depend>
+  <depend>modaq_messages</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
